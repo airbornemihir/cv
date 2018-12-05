@@ -31,6 +31,17 @@ GPA: 7.9/10\\
 
 \section{Professional Experience}
 
+ {\bf Research Intern} at Oracle Corp., Belmont, CA, USA. \hfill (2018)
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Completed a code proof to certify the correctness of a highly
+   optimised assembly language program.
+ \item Contributed to a timing analysis of this program, to ensure the
+   avoidance of race conditions.
+ \item Studied the potential use of the TLAPS theorem prover for
+   distributed systems, and created some preliminary internal
+   documentation.
+ \end{itemize}
+
  {\bf Research Intern} at Apple Computer, Inc., Austin, TX, USA. \hfill (2017)
  \begin{itemize} \itemsep -2pt  % reduce space between items
  \item Used model checking tools towards verifying Apple's hardware microarchitectures
@@ -55,14 +66,13 @@ GPA: 7.9/10\\
 
 \section{Research Experience}
  
- {\bf Filesystem modelling for CP/M} with Professor Warren A. Hunt Jr., CS department, UT Austin. \hfill (2016-present)
+ {\bf Filesystem modelling for FAT32} with Professor Warren A. Hunt Jr., CS department, UT Austin. \hfill (2016-present)
  \begin{itemize} \itemsep -2pt  % reduce space between items
- \item Currently developing a model for the FAT32 file system.
- \item Using the ACL2 theorem prover to model system level routines in
-   Lisp with mechanical proofs of several soundness properties.
- \item Using program refinement to iteratively build models with
-   proofs of correctness.
- \item Successfully modelled file storage on disks with garbage collection.
+ \item Developed a model for the FAT32 file system with ACL2.
+ \item Published a paper on this work in the proceedings of
+   ACL2-2018.
+ \item Currently developing specification for POSIX file operations,
+   to be used for proving correctness of file-manipulating programs.
  \end{itemize}
 
  
@@ -77,17 +87,17 @@ GPA: 7.9/10\\
    inputs demonstrating bugs in several test programs.
  \end{itemize}
 
-        {\bf Algorithms for bisimilarity} with Professor S
-        Arun Kumar, CSE Department, IIT Delhi    \hfill
-        (2012-2013) 
-        \begin{itemize} \itemsep -2pt
-        \item Conceptualised and implemented a toolkit for
-          verifying bisimilarity and other properties of timed automata
-          and labelled transition systems.
-        \item Improved an algorithm for generating a zone
-          graph from a timed automaton.
+ {\bf Algorithms for bisimilarity} with Professor S
+ Arun Kumar, CSE Department, IIT Delhi    \hfill
+ (2012-2013) 
+ \begin{itemize} \itemsep -2pt
+ \item Conceptualised and implemented a toolkit for
+   verifying bisimilarity and other properties of timed automata
+   and labelled transition systems.
+ \item Improved an algorithm for generating a zone
+   graph from a timed automaton.
 
-	\end{itemize}
+ \end{itemize}
 
 \section{Coursework (selected graduate courses)}
 \begin{tabular}{l p{3in}}
@@ -102,7 +112,7 @@ GPA: 7.9/10\\
 % Tabulate Technical Skills; p{3in} defines paragraph 3 inches wide
 \section{Technical \\ Skills}
    \begin{tabular}{l p{3in}}
-    \underline{Theorem provers:} ACL2, Coq. \\
+    \underline{Theorem provers:} ACL2, Coq, TLAPS. \\
 
     \underline{Programming languages:} Functional languages (OCaml,
     SML), \\ logic programming languages (Prolog),
