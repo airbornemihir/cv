@@ -1,29 +1,29 @@
-% LaTeX file for resume 
+% LaTeX file for resume
 % This file uses the resume document class (res.cls)
 
-\documentclass[margin]{res} 
-% the margin option causes section titles to appear to the left of body text 
+\documentclass[margin]{res}
+% the margin option causes section titles to appear to the left of body text
 \textwidth=5.2in % increase textwidth to get smaller right margin
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
+%\usepackage{newcent}   % uses new century schoolbook postscript font
 
 \usepackage{url}
 
-\begin{document} 
- 
+\begin{document}
+
 \name{Mihir P Mehta\\[12pt]} % the \\[12pt] adds a blank line after name
- 
+
 \address{Department of Computer Science \\University of Texas at Austin }
 
 \address{+1 512-952-0104 \\ \url{www.cs.utexas.edu/~mihir} }
 
- 
-\begin{resume} 
- 
-%% \section{Areas of interest} 
+
+\begin{resume}
+
+%% \section{Areas of interest}
 %% Formal verification, programming languages, operating systems.
 
-\section{Education} 
+\section{Education}
 {\bf Ph.D., Computer Science}, University of Texas at Austin. \hfill (2014 - present)\\
 GPA: 3.3/4 \hfill (Spring 2018)\\
 {\bf B.Tech., Computer Science and Engineering}, Indian Institute of
@@ -50,7 +50,7 @@ GPA: 7.9/10\\
  \item Developed proofs of correctness of hardware components with
    respect to specifications, with code changes where necessary.
  \end{itemize}
- 
+
  {\bf Research Intern} at Intel Corporation, Austin, TX, USA. \hfill (2015)
  \begin{itemize} \itemsep -2pt  % reduce space between items
  \item Built a Pintool to dynamically analyse executables.
@@ -67,17 +67,16 @@ GPA: 7.9/10\\
  \end{itemize}
 
 \section{Research Experience}
- 
- {\bf Filesystem modelling for FAT32} with Professor Warren A. Hunt Jr., CS department, UT Austin. \hfill (2016-present)
+
+ {\bf Filesystem modelling for FAT32} with Professor William R. Cook, CS department, UT Austin. \hfill (2016-present)
  \begin{itemize} \itemsep -2pt  % reduce space between items
- \item Developed a model for the FAT32 file system with ACL2.
- \item Published a paper on this work in the proceedings of
-   ACL2-2018.
- \item Currently developing specification for POSIX file operations,
-   to be used for proving correctness of file-manipulating programs.
+ \item Developed a binary-compatible model for the FAT32 file system.
+ \item Used the model as a basis for separation-based reasoning about
+   filesystems and file-manipulating programs with ACL2.
+ \item Published papers on this work in the proceedings of
+   ACL2-2018 and ITP-2019.
  \end{itemize}
 
- 
  {\bf Program verification in object-oriented languages} with Professors Isil Dillig and Thomas
  Dillig, CS department, UT Austin. \hfill (2014-2015)
  \begin{itemize} \itemsep -2pt  % reduce space between items
@@ -91,7 +90,7 @@ GPA: 7.9/10\\
 
  {\bf Algorithms for bisimilarity} with Professor S
  Arun Kumar, CSE Department, IIT Delhi    \hfill
- (2012-2013) 
+ (2012-2013)
  \begin{itemize} \itemsep -2pt
  \item Conceptualised and implemented a toolkit for
    verifying bisimilarity and other properties of timed automata
@@ -101,12 +100,28 @@ GPA: 7.9/10\\
 
  \end{itemize}
 
+\section{Publications}
+ {\bf Formalising Filesystems in the ACL2 Theorem Prover: an
+   Application to FAT32}. In: \textit{Proceedings of the 15th
+   International Workshop on the ACL2 Theorem Prover and Its
+   Applications, Austin, Texas, USA, November 5-6, 2018. Electronic
+   Proceedings in Theoretical Computer Science.} Matt Kaufmann and
+   Shilpi Goel, editors.  Vol.  280, pp. 18-29, 2018. URL
+   \url{https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ACL22018.2}.
+
+ {\bf Binary-Compatible Verification of Filesystems with ACL2}. In: \textit{10th International Conference
+on Interactive Theorem Proving (ITP 2019) (Leibniz International
+Proceedings in Informatics (LIPIcs))}, John Harrison, John O'Leary,
+ and Andrew Tolmach (Eds.), Vol. 141. Schloss Dagstuhl-Leibniz-Zentrum
+ fuer Informatik, Dagstuhl, Germany, 25:1-25:18. URL
+ \url{https://doi.org/10.4230/LIPIcs.ITP.2019.25}.
+
 \section{Coursework (selected graduate courses)}
 \begin{tabular}{l p{3in}}
   \underline{UT Austin:} Automated Logical Reasoning, Introduction to
   Mathematical Logic, \\ Formal Verification and Semantics, Automatic
   Verification of Software,\\ Numerical Linear Algebra, Dependable
-  Computing Sytems, Advanced OS, \\Recursion and Induction, Programming Languages (teaching assistant). \\ 
+  Computing Sytems, Advanced OS, \\Recursion and Induction, Programming Languages (teaching assistant). \\
   \underline{IIT Delhi :} Compiler Design,
   Theory of Computation, Numerical Optimisation.
 \end{tabular}
@@ -144,5 +159,5 @@ GPA: 7.9/10\\
   \underline{Languages:} English, French, Gujarati, Hindi. \\
 \end{tabular}
 
-\end{resume} 
-\end{document} 
+\end{resume}
+\end{document}
